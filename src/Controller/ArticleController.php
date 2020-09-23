@@ -111,7 +111,7 @@ class ArticleController extends Controller
                 array("class" => "form-control")
             ))
             ->add("save", SubmitType::class, array(
-                "label" => "Create",
+                "label" => "Update",
                 "attr" =>
                 array("class" => "btn btn-primary mt-3")
             ))
